@@ -45,7 +45,7 @@ body {
 
 .crossfade > figure:nth-child(5) {
   animation-delay: 24s;
-  background-image: url("../images/img_wordpress.JPG");
+  background-image: url("/src/images/img_wordpress.JPG");
 }
 
 @keyframes imageAnimation {
