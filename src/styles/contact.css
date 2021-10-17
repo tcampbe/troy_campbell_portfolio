@@ -4,7 +4,7 @@ body {
             |
             caption|icon|menu|message-box|
             small-caption|status-bar|initial|inherit; */
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-size: 22px;
   width: 95vw;
   height: 95vh;
@@ -26,47 +26,47 @@ body {
   z-index: 0;
 }
 
-.crossfade > figure:nth-child(1) { 
-  background-image: url('/src/images/img_python.JPG'); 
+.crossfade > figure:nth-child(1) {
+  background-image: url("/src/images/img_python.JPG");
 }
 
 .crossfade > figure:nth-child(2) {
   animation-delay: 6s;
-  background-image: url('/src/images/img_stillOcean.jpg');
+  background-image: url("/src/images/img_stillOcean.jpg");
 }
 
 .crossfade > figure:nth-child(3) {
   animation-delay: 12s;
-  background-image: url('/src/images/img_html.JPG');
+  background-image: url("/src/images/img_html.JPG");
 }
 
 .crossfade > figure:nth-child(4) {
   animation-delay: 18s;
-  background-image: url('/src/images/img_profilePic.jpg');
+  background-image: url("/src/images/img_profilePic.jpg");
 }
 
 .crossfade > figure:nth-child(5) {
   animation-delay: 24s;
-  background-image: url('/src/images/img_wordpress.JPG');
+  background-image: url("/src/images/img_wordpress.JPG");
 }
 
 @keyframes imageAnimation {
   0% {
-  animation-timing-function: ease-in;
-  opacity: 0;
+    animation-timing-function: ease-in;
+    opacity: 0;
   }
   8% {
-  animation-timing-function: ease-out;
-  opacity: 1;
+    animation-timing-function: ease-out;
+    opacity: 1;
   }
   17% {
-  opacity: 1
+    opacity: 1;
   }
   25% {
-  opacity: 0
+    opacity: 0;
   }
   100% {
-  opacity: 0
+    opacity: 0;
   }
 }
 
@@ -101,7 +101,7 @@ body {
 h4 {
   text-align: center;
 }
-  
+
 #media {
   background-color: #f1f1f1;
   margin: 0.5em;
@@ -134,7 +134,9 @@ h4 {
   width: 99%;
 }
 
-input[type=text], select, textarea {
+input[type="text"],
+select,
+textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -144,27 +146,23 @@ input[type=text], select, textarea {
   resize: vertical;
   font-size: 0.85em;
 }
-  
-input[type=submit] {
-  background-color: #04AA6D;
+
+input[type="submit"] {
+  background-color: #04aa6d;
   color: white;
   padding: 0 20px;
   border: none;
   cursor: pointer;
 }
-  
-input[type=submit]:hover {
+
+input[type="submit"]:hover {
   background-color: #45a049;
 }
-  
+
 #name {
   height: 10px;
 }
 
 #message {
-  height:70px
+  height: 70px;
 }
-  
-
-
-
