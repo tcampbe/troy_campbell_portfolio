@@ -3,7 +3,7 @@
 /* adding Style */
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url('/src/images/img_bridgeSunset.jpg');
+    background-image: url('../images/img_bridgeSunset.jpg');
     background-size: cover;
     width: 100vw;
     height: 95vh;
