@@ -25,27 +25,27 @@ body {
 }
 
 .crossfade > figure:nth-child(1) {
-  background-image: url("../images/img_python.jpg");
+  background-image: url(../images/img_python.jpg);
 }
 
 .crossfade > figure:nth-child(2) {
   animation-delay: 6s;
-  background-image: url("../images/img_stillOcean.jpg");
+  background-image: url(../images/img_stillOcean.jpg);
 }
 
 .crossfade > figure:nth-child(3) {
   animation-delay: 12s;
-  background-image: url("../images/img_html.jpg");
+  background-image: url(../images/img_html.jpg);
 }
 
 .crossfade > figure:nth-child(4) {
   animation-delay: 18s;
-  background-image: url("../images/img_profilePic.jpg");
+  background-image: url(../images/img_profilePic.jpg);
 }
 
 .crossfade > figure:nth-child(5) {
   animation-delay: 24s;
-  background-image: url("../images/img_wordpress.jpg");
+  background-image: url(../images/img_wordpress.jpg);
 }
 
 @keyframes imageAnimation {
@@ -125,7 +125,6 @@ h4 {
 
 .container {
   background-color: #f2f2f2;
-  /* padding: 0 1px; */
   position: relative;
   top: -1.5em;
   font-size: 0.85em;
