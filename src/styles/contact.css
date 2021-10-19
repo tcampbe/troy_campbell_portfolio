@@ -163,3 +163,9 @@ input[type="submit"]:hover {
 #message {
   height: 70px;
 }
+
+footer {
+  position: relative;
+  left: 26em;
+  top: 10em;
+}
