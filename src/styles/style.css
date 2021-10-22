@@ -57,14 +57,55 @@ body {
     width: 100%;
     padding-right: 2%;
   }
+
+  .smartphone {
+    background: linear-gradient(45deg, rgb(172, 146, 146), rgb(75, 78, 87));
+    position: relative;
+    width: 17em;
+    height: 27em;
+    margin: 2em auto;
+    border: 16px black solid;
+    border-top-width: 60px;
+    border-bottom-width: 60px;
+    border-radius: 36px;
+    text-align: center;
+    grid-column: 2/3;
+
+  }
   /* This is an ID selector */
   #profile-pic {
-    width: 18em;
-    height: 21em;
+    width: 15em;
+    height: 18em;
     border-radius: 55%;
-    margin: 10em auto 0.5em;
+    margin: 2em auto 0.5em;
     grid-column: 2/3;
     /* margin-top: 12em; */
+  }
+
+  .smartphone:before {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 5px;
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #333;
+    border-radius: 10px;
+  }
+
+  .smartphone:after {
+    content: '';
+    display: block;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    left: 50%;
+    bottom: -65px;
+    transform: translate(-50%, -50%);
+    background: #333;
+    border-radius: 50%;
   }
  
   h1 {
