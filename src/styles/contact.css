@@ -12,16 +12,17 @@ body {
   animation: imageAnimation 30s linear infinite 0s;
   backface-visibility: hidden;
   background-repeat: no-repeat;
-  background-size: 96% 65%;
+  background-size: contain cover;
   background-position: center 0.5em;
+  background-attachment: fixed;
   color: transparent;
   height: 100%;
-  left: -1.5em;
+  left: -0.5em;
   opacity: 0;
   position: absolute;
-  top: 0px;
-  width: 100%;
-  z-index: 0;
+  top: 75vh;
+  width: 96.5%;
+  z-index: -1;
 }
 
 .crossfade > figure:nth-child(1) {
@@ -87,13 +88,55 @@ body {
   transform: scale(1);
 }
 
+.logo {
+  width: 4.5em;
+  height: 4.5em;
+  margin: 0.5em 0.5em 2vw;
+}
+
+header {
+  background-color: blanchedalmond;
+  display: grid;
+  position: fixed;
+  grid-template-columns: 40% 60%;
+  width: 93.5%;
+  margin: -0.5em 1vw;
+  padding: 1vw 5vw 0;
+}
+
+nav {
+  background-color: cornsilk;
+  display: flex;
+  justify-content: flex-end;
+  margin: -1.4vw 0 2vw;
+  border-radius: 0.5vw;
+  width: 100%;
+  padding-right: 2%;
+}
+/* This is an element within 
+and element selector */ 
+nav > a {
+  margin: 2vw 1vw 0.2vw;
+  height: 10%;
+  width: 15%;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.4vw;
+  border-radius: 25px;
+  background: rgb(255, 252, 252, 0.3);
+  padding: 0.9vw 0.9vw 1.4vw;
+  text-align: center;
+  border: 2px solid black;
+}
+
 .flex-container {
   display: flex;
-  background-color: rgb(159, 205, 252);
+  background: linear-gradient(-45deg, rgba(120, 120, 201, 0.342), blanchedalmond);
   position: relative;
-  height: 35%;
+  height: 55%;
   left: 1em;
-  top: 5.5em;
+  top: -20vh;
+  z-index: -1;
 }
 
 h4 {

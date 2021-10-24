@@ -1,0 +1,48 @@
+
+
+body {
+    font-family: "Poppins";
+    font-size: 22px;
+  }
+  
+.logo {
+    width: 4.5em;
+    height: 4.5em;
+    margin: 0.5em 0.5em 2vw;
+  }
+  
+  header {
+    background-color: blanchedalmond;
+    display: grid;
+    position: fixed;
+    grid-template-columns: 40% 60%;
+    width: 90%;
+    margin: -1.5vh -0.5vw;
+    padding: 1vh 5vw 0;
+  }
+  
+  nav {
+    background-color: cornsilk;
+    display: flex;
+    justify-content: flex-end;
+    margin: -1.4vw 0 2vw;
+    border-radius: 0.5vw;
+    width: 100%;
+    padding-right: 2%;
+  }
+  /* This is an element within 
+  and element selector */ 
+  nav > a {
+    margin: 2vw 1vw 0.2vw;
+    height: 10%;
+    width: 15%;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4vw;
+    border-radius: 25px;
+    background: rgb(255, 252, 252, 0.3);
+    padding: 0.9vw 0.9vw 1.4vw;
+    text-align: center;
+    border: 2px solid black;
+  }
+  
