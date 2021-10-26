@@ -1,0 +1,215 @@
+
+
+
+body {
+    font-family: "Poppins";
+    font-size: 22px;
+    width: 95vw;
+    height: 95vh;
+  }
+
+  .crossfade > figure {
+    animation: imageAnimation 30s linear infinite 0s;
+    backface-visibility: hidden;
+    background-repeat: no-repeat;
+    background-size: contain cover;
+    background-position: center 0.5em;
+    background-attachment: fixed;
+    color: transparent;
+    height: 100%;
+    left: -0.5em;
+    opacity: 0;
+    position: absolute;
+    top: 75vh;
+    width: 96.5%;
+    z-index: -1;
+  }
+  
+  .crossfade > figure:nth-child(1) {
+    background-image: url(../images/img_python.jpg);
+  }
+  
+  .crossfade > figure:nth-child(2) {
+    animation-delay: 6s;
+    background-image: url(../images/img_stillOcean.jpg);
+  }
+  
+  .crossfade > figure:nth-child(3) {
+    animation-delay: 12s;
+    background-image: url(../images/img_html.jpg);
+  }
+  
+  .crossfade > figure:nth-child(4) {
+    animation-delay: 18s;
+    background-image: url(../images/img_profilePic.jpg);
+  }
+  
+  .crossfade > figure:nth-child(5) {
+    animation-delay: 24s;
+    background-image: url(../images/img_wordpress.jpg);
+  }
+  
+  @keyframes imageAnimation {
+    0% {
+      animation-timing-function: ease-in;
+      opacity: 0;
+    }
+    8% {
+      animation-timing-function: ease-out;
+      opacity: 1;
+    }
+    17% {
+      opacity: 1;
+    }
+    25% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  .email {
+    position: relative;
+    left: 12em;
+    top: 4em;
+    opacity: 0;
+    -webkit-transform: scale(0.2);
+    -ms-transform: scale(0.2);
+    transform: scale(0.2);
+    -webkit-transition: 1s ease;
+    transition: 1s ease;
+  }
+  
+  .email:hover {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+  
+  .logo {
+    width: 4.5em;
+    height: 4.5em;
+    margin: 0.5em 0.5em 2vw;
+  }
+  
+  header {
+    background-color: blanchedalmond;
+    display: grid;
+    position: fixed;
+    grid-template-columns: 40% 60%;
+    width: 93.5%;
+    margin: -1vh -1vw;
+    padding: 1vw 5vw 0;
+  }
+  
+  nav {
+    background-color: cornsilk;
+    display: flex;
+    justify-content: flex-end;
+    margin: -1.4vw 0 2vw;
+    border-radius: 0.5vw;
+    width: 100%;
+    padding-right: 2%;
+  }
+  /* This is an element within 
+  and element selector */ 
+  nav > a {
+    margin: 2vw 1vw 0.2vw;
+    height: 10%;
+    width: 15%;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4vw;
+    border-radius: 25px;
+    background: rgb(255, 252, 252, 0.3);
+    padding: 0.9vw 0.9vw 1.4vw;
+    text-align: center;
+    border: 2px solid black;
+  }
+  
+  .flex-container {
+    display: flex;
+    background: linear-gradient(-45deg, rgba(120, 120, 201, 0.342), blanchedalmond);
+    position: relative;
+    height: 55%;
+    left: 1em;
+    top: -20vh;
+    z-index: -1;
+  }
+  
+  h4 {
+    text-align: center;
+  }
+  
+  #media {
+    background-color: #f1f1f1;
+    margin: 0.5em;
+    padding: 0em 1em 1em;
+    font-size: 0.85em;
+  }
+  
+  #work {
+    background-color: #f1f1f1;
+    margin: 0.5em 0;
+    padding: 0em 1em 1em;
+    font-size: 0.85em;
+    line-height: 0.85em;
+  }
+  
+  #contact-form {
+    background-color: #f2f2f2;
+    box-sizing: border-box;
+    margin: 0.5em;
+    padding: 0 1em 1em;
+    font-size: 0.85em;
+  }
+  
+  .container {
+    background-color: #f2f2f2;
+    position: relative;
+    top: -1.5em;
+    font-size: 0.85em;
+    width: 99%;
+  }
+  
+  input[type="text"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-size: 0.85em;
+  }
+  
+  input[type="submit"] {
+    background-color: #04aa6d;
+    color: white;
+    padding: 0 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  #name {
+    height: 10px;
+  }
+  
+  #message {
+    height: 70px;
+  }
+  
+  footer {
+    position: relative;
+    left: 26em;
+    top: 10em;
+  }
+  
