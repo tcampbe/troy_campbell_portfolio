@@ -2,51 +2,110 @@
 /* https://levelup.gitconnected.com/how-to-make-a-fully-accessible-css-only-carousel-40e8bd62032b */
 
 body {
+  background-image: url(../images/img_tscLogo.jpg);
+  background-repeat: no-repeat;
+  background-size: 95vw 90vh;
+  background-position: center;
   font-family: "Poppins";
   font-size: 22px;
 }
 
 .logo {
-  width: 4.5em;
-  height: 4.5em;
-  margin: 0.5em 0.5em 2vw;
+  width: 5.5vw;
+  height: 6.5vh;
+  margin: 1.5vh 0.5vw;
 }
 
 header {
-  background-color: blanchedalmond;
+  background-color: rgb(252, 245, 221);
   display: grid;
   position: fixed;
-  grid-template-columns: 40% 60%;
+  grid-template-columns: 30% 70%;
   width: 93.5%;
-  margin: -1vh -1vw;
-  padding: 1vw 5vw 0;
+  margin: -2vh -1vw;
+  padding: 0 4vw;
 }
 
 nav {
-  background-color: cornsilk;
+  background-color: rgb(247, 241, 214);
   display: flex;
   justify-content: flex-end;
-  margin: -1.4vw 0 2vw;
+  margin: -2vh 0 2vh -4vw;
   border-radius: 0.5vw;
   width: 100%;
-  padding-right: 2%;
+  padding-right: 1vh 0 -1vh ;
 }
-/* This is an element within 
-and element selector */ 
+
 nav > a {
-  margin: 2vw 1vw 0.2vw;
-  height: 10%;
-  width: 15%;
+  margin: 3vh 3vw 0.2vh;
+  height: 1.5vh;
+  width: 10vw;
   color: black;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.4vw;
-  border-radius: 25px;
+  border-radius: 15px;
   background: rgb(255, 252, 252, 0.3);
   padding: 0.9vw 0.9vw 1.4vw;
   text-align: center;
-  border: 2px solid black;
+  border: 2px solid rgba(0, 0, 0, 0.027);
 }
 
 main {
-  padding-top: 20vh;
+  background-color: rgba(255, 255, 255, 0.938);
+  padding: 30vh 0;
+
 }
+
+.flex-container {
+  background-color: rgba(255, 250, 240, 0.705);
+  display: flex;
+  padding: 3vh 2vw;
+  font-size: 1.8vw;
+  gap: 0.5vw;
+}
+
+h4 {
+  text-align: center;
+}
+
+#media {
+  background-color: rgba(245, 245, 245, 0.459);
+  line-height: 5vh;
+  padding: 0 1vw;
+}
+
+#abilities {
+  background-color: rgba(245, 245, 245, 0.459);
+  margin: -0.1vh 0;
+  padding: 0 1vw;
+  list-style-type: none;
+}
+
+#contact-form {
+  background-color: rgba(245, 245, 245, 0.459);
+  width: 60vw;
+  padding: 0 1vw;
+}
+
+.container {
+  padding: 1vh 1vw;
+  box-sizing: border-box;
+}
+
+input[type="text"],
+  select,
+  textarea {
+    resize: vertical;
+    width: 100%;
+  }
+
+  input[type="email"],
+  select,
+  textarea {
+    resize: vertical;
+    width: 100%;
+  }
+
+
+
+  
