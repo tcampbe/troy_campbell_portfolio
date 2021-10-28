@@ -68,6 +68,7 @@ main {
   width: 100%;
   display: grid;
   grid-template-columns: 15% 70% 15%;
+  padding: 0 0 100vh;
 }
 
 .smartphone {
@@ -160,6 +161,14 @@ h1 {
   justify-content: center;
 }
 
-
+#footer{
+  display: initial;
+  background-color: cadetblue;
+  position: fixed;
+  bottom: 0;
+  color: aliceblue;
+  width: 100%;
+  text-align: center;
+}
 
 
