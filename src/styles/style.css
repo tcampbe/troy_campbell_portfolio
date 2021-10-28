@@ -1,158 +1,165 @@
+/* build a pad and pc version of the
+portrait frame
+and
+build carousel to show each */
+/* css carousel if wanted */
+/* https://levelup.gitconnected.com/how-to-make-a-fully-accessible-css-only-carousel-40e8bd62032b */
 
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: url('../images/img_bridgeSunset.jpg');
-    background-size: 100vw 92vh;
-    background-attachment: fixed;
-    width: 97vw;
-    height: 95vh;
-  }
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url('../images/img_bridgeSunset.jpg');
+  background-size: 100vw 92vh;
+  background-attachment: fixed;
+  background-position: bottom center;
+  width: 97vw;
+  height: 95vh;
+}
 
-  .logo {
-    width: 4.5em;
-    height: 4.5em;
-    margin: 0.5em 0.5em 2vw;
-  }
- 
-  header {
-    background-color: blanchedalmond;
-    display: grid;
-    grid-template-columns: 40% 60%;
-    width: 93.5%;
-    margin: -0.5em;
-    padding: 1vw 4vw 0;
-  }
+.logo {
+  width: 5.5vw;
+  height: 6.5vh;
+  margin: 1.5vh 0.5vw;
+}
 
-  nav {
-    background-color: cornsilk;
-    display: flex;
-    justify-content: flex-end;
-    margin: -1.4vw 0 2vw;
-    border-radius: 0.5vw;
-    width: 100%;
-    padding-right: 2%;
-  }
-  /* This is an element within 
-  and element selector */ 
-  nav > a {
-    margin: 2vw 1vw 0.2vw;
-    height: 10%;
-    width: 15%;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.4vw;
-    border-radius: 25px;
-    background: rgb(255, 252, 252, 0.3);
-    padding: 0.9vw 0.9vw 1.4vw;
-    text-align: center;
-    border: 2px solid black;
-  }
- 
-  .has-border {
-    border-radius: 25px;
-    border: 2px solid #d9f5d8;
-    background: rgba(149, 248, 157, 0.349);
-    padding: 0.9vw 0.9vw 1.4vw;
-  }
- 
-  main {
-    height: 50%;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 30% 40% 30%;
-  }
+header {
+  background-color: rgb(252, 245, 221);
+  display: grid;
+  position: fixed;
+  grid-template-columns: 30% 70%;
+  width: 93.5%;
+  margin: -2vh -1vw;
+  padding: 0 4vw;
+}
 
-  .smartphone {
-    background: linear-gradient(45deg, rgb(172, 146, 146), rgb(75, 78, 87));
-    position: relative;
-    width: 16em;
-    height: 24em;
-    margin: 1vw auto 1vw;
-    border: 16px black solid;
-    border-top-width: 60px;
-    border-bottom-width: 60px;
-    border-radius: 36px;
-    text-align: center;
-    grid-column: 2/3;
+nav {
+  background-color: rgb(247, 241, 214);
+  display: flex;
+  justify-content: flex-end;
+  margin: -2vh 0 2vh -4vw;
+  border-radius: 0.5vw;
+  width: 100%;
+  padding-right: 1vh 0 -1vh ;
+}
 
-  }
-  /* This is an ID selector */
-  #profile-pic {
-    width: 15em;
-    height: 18em;
-    border-radius: 55%;
-    margin: 1em auto 0.5em;
-    grid-column: 2/3;
-    /* margin-top: 12em; */
-  }
+nav > a {
+  margin: 3vh 3vw 0.2vh;
+  height: 1.5vh;
+  width: 10vw;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.4vw;
+  border-radius: 15px;
+  background: rgb(255, 252, 252, 0.3);
+  padding: 0.9vw 0.9vw 1.4vw;
+  text-align: center;
+  border: 2px solid rgba(0, 0, 0, 0.027);
+}
 
-  .smartphone:before {
-    content: '';
-    display: block;
-    width: 60px;
-    height: 5px;
-    position: absolute;
-    top: -30px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: #333;
-    border-radius: 10px;
-  }
-
-  .smartphone:after {
-    content: '';
-    display: block;
-    width: 35px;
-    height: 35px;
-    position: absolute;
-    left: 50%;
-    bottom: -65px;
-    transform: translate(-50%, -50%);
-    background: #333;
-    border-radius: 50%;
-  }
- 
-  h1 {
-    color:black;
-    grid-column: 2/3;
-    margin: 0.1em auto;
-    border-bottom: 2px solid #82f796;
-    background-color: rgba(255, 255, 255, 0.329);
-  }
- 
-  h2 {
-    grid-column: 2/3;
-    font-size: 2vw;
-    margin: auto;
-    font-style: italic;
-    background-color: rgba(255, 255, 255, 0.329);
-  }
+.has-border {
+  border-radius: 25px;
+  border: 2px solid #d9f5d8;
+  background: rgba(149, 248, 157, 0.349);
+  padding: 0.9vw 0.9vw 1.4vw;
+}
   
-  button {
-    grid-column: 2/3;
-    margin: auto;
-    width: 70%;
-    height: 15%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.6vw;
-    border-radius: 25px;
-    background: rgba(255, 255, 255, 0.329);
-    padding: 1vw 2vw 3vw;
-    text-align: center;
-    color: black;
-    letter-spacing: 16px;
-    font-style: italic;
-    font-weight: bolder;
-  }
+main {
+  height: 50%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 15% 70% 15%;
+}
 
-  .small-text {
-    grid-column: 2/3;
-    color: black;
-    font-size: 10px;
-    margin: auto;
-    background-color: white;
-  }
+.smartphone {
+  background: linear-gradient(45deg, rgb(172, 146, 146), rgb(75, 78, 87));
+  position: relative;
+  top: 10vh;
+  width: 16em;
+  height: 24em;
+  margin: 1vw auto 1vw;
+  border: 16px black solid;
+  border-top-width: 60px;
+  border-bottom-width: 60px;
+  border-radius: 36px;
+  text-align: center;
+  grid-column: 2/3;
+  align-items: center;
+  justify-content: center;
+}
+/* This is an ID selector */
+#profile-pic {
+  width: 15em;
+  height: 18em;
+  border-radius: 55%;
+  margin: 1em auto 0.5em;
+  grid-column: 2/3;
+}
+
+h1 {
+  color:black;
+  grid-column: 2/3;
+  margin: 0.1em auto;
+  border-bottom: 2px solid #82f796;
+  background-color: rgba(255, 255, 255, 0.329);
+}
+
+.smartphone:before {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 5px;
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #333;
+  border-radius: 10px;
+}
+
+.smartphone:after {
+  content: '';
+  display: block;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: 50%;
+  bottom: -65px;
+  transform: translate(-50%, -50%);
+  background: #333;
+  border-radius: 50%;
+}
+
+#title {
+  background-color: rgba(255, 255, 255, 0.329);
+  position: relative;
+  top: 10vh;
+  grid-column: 2/3;
+  font-size: 2vw;
+  font-style: italic;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+#portfolio {
+  background: rgba(255, 255, 255, 0.329);
+  position: relative;
+  top: 10vh;
+  grid-column: 2/3;
+  font-size: 1.6vw;
+  font-style: italic;
+  font-weight: bolder;
+  letter-spacing: 1.9vw;
+  text-align: center;
+  border-radius: 25vw;
+  width: 40%;
+  height: 15%;
+  margin: auto;
+  padding: 1vw 2vw 3vw;
+  align-items: center;
+  justify-content: center;
+}
+
 
 
 

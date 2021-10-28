@@ -1,11 +1,13 @@
-/* css carousel if wanted */
-/* https://levelup.gitconnected.com/how-to-make-a-fully-accessible-css-only-carousel-40e8bd62032b */
+/* make contact form send messages to email */
+
+
 
 body {
   background-image: url(../images/img_tscLogo.jpg);
   background-repeat: no-repeat;
   background-size: 95vw 90vh;
-  background-position: center;
+  background-position: center bottom;
+  background-attachment: fixed;
   font-family: "Poppins";
   font-size: 22px;
 }
@@ -50,14 +52,21 @@ nav > a {
   border: 2px solid rgba(0, 0, 0, 0.027);
 }
 
-main {
-  background-color: rgba(255, 255, 255, 0.938);
-  padding: 30vh 0;
+.has-border {
+  border-radius: 25px;
+  border: 2px solid #d9f5d8;
+  background: rgba(149, 248, 157, 0.349);
+  padding: 0.9vw 0.9vw 1.4vw;
+}
 
+main {
+  background-color: rgb(255, 255, 255);
+  background: linear-gradient(180deg, rgb(255, 255, 255), rgba(255, 255, 255, 0.514));
+  padding: 30vh 0 120vh;
 }
 
 .flex-container {
-  background-color: rgba(255, 250, 240, 0.705);
+  background-color: rgba(255, 250, 240, 0.52);
   display: flex;
   padding: 3vh 2vw;
   font-size: 1.8vw;
@@ -69,20 +78,20 @@ h4 {
 }
 
 #media {
-  background-color: rgba(245, 245, 245, 0.459);
+  background-color: rgba(245, 245, 245, 0.609);
   line-height: 5vh;
   padding: 0 1vw;
 }
 
 #abilities {
-  background-color: rgba(245, 245, 245, 0.459);
+  background-color: rgba(245, 245, 245, 0.609);
   margin: -0.1vh 0;
   padding: 0 1vw;
   list-style-type: none;
 }
 
 #contact-form {
-  background-color: rgba(245, 245, 245, 0.459);
+  background-color: rgba(245, 245, 245, 0.609);
   width: 60vw;
   padding: 0 1vw;
 }
@@ -99,12 +108,12 @@ input[type="text"],
     width: 100%;
   }
 
-  input[type="email"],
-  select,
-  textarea {
-    resize: vertical;
-    width: 100%;
-  }
+input[type="email"],
+select,
+textarea {
+  resize: vertical;
+  width: 100%;
+}
 
 
 
