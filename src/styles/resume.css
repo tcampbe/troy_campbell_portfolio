@@ -89,7 +89,6 @@ section {
 }
 
 .skills {
-  background-image: url(../images/img_html.jpg);
   background-size: 125vw;
   background-position: center;
 }
@@ -101,7 +100,6 @@ section {
 }
 
 .experience {
-  background-color: rgba(210, 180, 140, 0.2);
   background-size: 125vw;
   background-position: center;
 }
