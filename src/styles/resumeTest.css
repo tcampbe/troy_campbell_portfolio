@@ -1,0 +1,83 @@
+
+
+
+
+
+
+.logo {
+    width: 5.5vw;
+    height: 6.5vh;
+    margin: 1.5vh 0.5vw;
+}
+
+header {
+    background-color: rgb(252, 245, 221);
+    display: grid;
+    position: fixed;
+    grid-template-columns: 30% 70%;
+    width: 93.5%;
+    margin: -2vh -1vw;
+    padding: 0 4vw;
+}
+
+nav {
+    background-color: rgb(247, 241, 214);
+    display: flex;
+    justify-content: flex-end;
+    margin: -2vh 0 2vh -4vw;
+    border-radius: 0.5vw;
+    width: 100%;
+    padding-right: 1vh 0 -1vh ;
+}
+
+nav > a {
+    margin: 3vh 3vw 0.2vh;
+    height: 1.5vh;
+    width: 10vw;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4vw;
+    border-radius: 15px;
+    background: rgb(255, 252, 252, 0.3);
+    padding: 0.9vw 0.9vw 1.4vw;
+    text-align: center;
+    border: 2px solid rgba(0, 0, 0, 0.027);
+}
+
+.has-border {
+    border-radius: 25px;
+    border: 2px solid #d9f5d8;
+    background: rgba(149, 248, 157, 0.349);
+    padding: 0.9vw 0.9vw 1.4vw;
+}
+
+.banner {
+    background-image: url("../images/img_campbellTartan.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 200vw 200vh;
+    padding: 20vh 0;
+    margin: 0 -1vw;
+}
+
+.title {
+    background-color: rgba(255, 255, 255, 0.349);
+    font-size: 5vh;
+    line-height: 0.3;
+    text-align: center;
+    margin: 10vh 4vw;
+    padding: 0.01vh 0;
+}
+
+.brief {
+    background-color: rgba(0, 128, 0, 0.329);
+    margin: -5.5vh -1vh 0;
+    padding: -1vh 1vw 1vh;
+}
+
+.brief_title {
+    text-align: center;
+    font-size: 4vh;
+}
+
