@@ -1,10 +1,11 @@
-/* css carousel if wanted */
-/* https://levelup.gitconnected.com/how-to-make-a-fully-accessible-css-only-carousel-40e8bd62032b */
+
+
+
+
 
 
 body {
-  font-family: "Poppins";
-  font-size: 22px;
+    font-family: "Poppins";
 }
 
 .logo {
@@ -30,7 +31,7 @@ nav {
   margin: -2vh 0 2vh -4vw;
   border-radius: 0.5vw;
   width: 100%;
-  padding-right: 1vh 0 -1vh ;
+  padding-right: 1vh 0 -1vh;
 }
 
 nav > a {
@@ -54,57 +55,194 @@ nav > a {
   padding: 0.9vw 0.9vw 1.4vw;
 }
 
-main {
-  padding: 10vh 0 0;
+.banner {
+  background-image: url("../images/img_campbellTartan.gif");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 200vw 200vh;
+  padding: 20vh 0;
+  margin: 0 -1vw;
+  border-style: none solid;
+  border-color: rgba(85, 107, 47, 0.5);
+  border-width: 3vw;
+}
+
+.title {
+  background-color: rgba(255, 255, 255, 0.349);
+  font-size: 5vh;
+  line-height: 0.3;
   text-align: center;
+  margin: 10vh 10vw;
+  padding: 0.01vh 0;
 }
 
-h1 {
-  background-color: rgba(255, 255, 255, 0.975);
+.brief {
+  background-color: rgba(0, 128, 0, 0.329);
+  margin: -5.5vh -1vh 0;
+  padding: -1vh 1vw 1vh;
+  border-style: none solid;
+  border-color: rgba(85, 107, 47, 0.5);
+  border-width: 3vw;
+}
+
+.brief_title {
+  text-align: center;
   font-size: 4vh;
-  color: black;
-  border-top: 5px solid rgba(238, 232, 170, 0.849);
 }
 
-h2 {
-  background-color: rgba(255, 255, 255, 0.95);
-  font-size: 3vh;
-  color: black;
-}
-
-p {
-  background-color: rgba(255, 255, 255, 0.9);
-  color: black;
-}
-
-section {
-  padding: 0 20vw 1vh;
-  margin: 0 0 5vh;
-}
-
-.summary {
-  background-color: rgba(210, 180, 140, 0.2);
-  position: relative;
-  z-index: 1;
+.brief_text {
+  text-align: center;
+  font-size: 2.5vh;
+  margin: -5vh 22vw 1vh;
+  padding: 0 0 5vh 1vw;
 }
 
 .skills {
-  background-size: 125vw;
-  background-position: center;
+  background-color: rgb(252, 245, 221);
+  margin: -5.5vh -1vh 0;
+  padding: -1vh 1vw 1vh;
+  border-style: none solid;
+  border-color: rgba(85, 107, 47, 0.5);
+  border-width: 3vw;
+}
+
+.skills_title {
+  text-align: center;
+  font-size: 4vh;
+}
+
+.proficient_title {
+  text-align: center;
+  font-size: 3vh;
+  margin: -5vh 0 1vh;
+}
+
+.proficient_text {
+  text-align: center;
+  font-size: 2.5vh;
+  margin: -2vh 0 1vh;
+  padding: 0 0 5vh 1vw;
+}
+
+.familiar_title {
+  text-align: center;
+  font-size: 3vh;
+  margin: -8vh 0 1vh;
+}
+
+.familiar_text {
+  text-align: center;
+  font-size: 2.5vh;
+  margin: -2vh 0 1vh;
+  padding: 0 0 5vh 1vw;
 }
 
 .education {
-  background-color: rgba(210, 180, 140, 0.2);
-  background-size: 125vw;
-  background-position: center;
+  background-color: rgb(255, 252, 252);
+  margin: -5.5vh -1vh 0;
+  padding: -1vh 1vw 1vh;
+  border-style: none solid;
+  border-color: rgba(85, 107, 47, 0.5);
+  border-width: 3vw;
+}
+
+.education_title {
+  text-align: center;
+  font-size: 4vh;
+}
+
+.LCA_title {
+  text-align: center;
+  font-size: 3vh;
+  margin: -5vh 0 1vh;
+}
+
+.LCA_text {
+  text-align: center;
+  font-size: 2.5vh;
+  margin: -2vh 0 1vh;
+  padding: 0 0 5vh 1vw;
+}
+
+.AMU_title {
+  text-align: center;
+  font-size: 3vh;
+  margin: -8vh 0 1vh;
+}
+
+.AMU_text {
+  text-align: center;
+  font-size: 2.5vh;
+  margin: -2vh 0 1vh;
+  padding: 0 0 5vh 1vw;
 }
 
 .experience {
-  background-size: 125vw;
-  background-position: center;
+  background-color: ghostwhite;
+  margin: -5.5vh -1vh 0;
+  padding: -1vh 1vw 1vh;
+  border-style: none solid;
+  border-color: rgba(85, 107, 47, 0.5);
+  border-width: 3vw;
 }
 
+.experience_title {
+  text-align: center;
+  font-size: 4vh;
+}
 
+.app_admin_title {
+  text-align: center;
+  font-size: 3vh;
+  margin: -5vh 0 1vh;
+}
+
+.app_admin_text {
+  text-align: center;
+  font-size: 2.5vh;
+  margin: -2vh 0 1vh;
+  padding: 0 0 5vh 1vw;
+}
+
+.volunteer_title {
+  text-align: center;
+  font-size: 3vh;
+  margin: -8vh 0 1vh;
+}
+
+.volunteer_text {
+  text-align: center;
+  font-size: 2.5vh;
+  margin: -2vh 0 1vh;
+  padding: 0 0 5vh 1vw;
+}
+
+.accessioner_title {
+  text-align: center;
+  font-size: 3vh;
+  margin: -8vh 0 1vh;
+}
+
+.accessioner_text {
+  text-align: center;
+  font-size: 2.5vh;
+  margin: -2vh 0 1vh;
+  padding: 0 0 5vh 1vw;
+}
+
+.ops_title {
+  text-align: center;
+  font-size: 3vh;
+  margin: -8vh 0 1vh;
+}
+
+.ops_text {
+  text-align: center;
+  font-size: 2.5vh;
+  margin: -2vh 0 1vh;
+  padding: 0 0 5vh 1vw;
+}
 
 
 
