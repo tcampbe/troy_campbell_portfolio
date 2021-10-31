@@ -60,7 +60,7 @@ nav > a {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  background-size: 200vw 200vh;
+  background-size: 110vw 260vh;
   padding: 20vh 0;
   margin: 0 -1vw;
   border-style: none solid;
@@ -81,9 +81,9 @@ nav > a {
   background-color: rgba(0, 128, 0, 0.329);
   margin: -5.5vh -1vh 0;
   padding: -1vh 1vw 1vh;
-  border-style: none solid;
+  border-style: none solid double;
   border-color: rgba(85, 107, 47, 0.5);
-  border-width: 3vw;
+  border-width: 0 3vw 2vh;
 }
 
 .brief_title {
@@ -102,9 +102,9 @@ nav > a {
   background-color: rgb(252, 245, 221);
   margin: -5.5vh -1vh 0;
   padding: -1vh 1vw 1vh;
-  border-style: none solid;
+  border-style: none solid ridge;
   border-color: rgba(85, 107, 47, 0.5);
-  border-width: 3vw;
+  border-width: 2vh 3vw;
 }
 
 .skills_title {
@@ -142,9 +142,9 @@ nav > a {
   background-color: rgb(255, 252, 252);
   margin: -5.5vh -1vh 0;
   padding: -1vh 1vw 1vh;
-  border-style: none solid;
+  border-style: none solid groove;
   border-color: rgba(85, 107, 47, 0.5);
-  border-width: 3vw;
+  border-width: 0 3vw 2vh;
 }
 
 .education_title {
@@ -182,9 +182,9 @@ nav > a {
   background-color: ghostwhite;
   margin: -5.5vh -1vh 0;
   padding: -1vh 1vw 1vh;
-  border-style: none solid;
+  border-style: none solid double;
   border-color: rgba(85, 107, 47, 0.5);
-  border-width: 3vw;
+  border-width: 0 3vw 10vh;
 }
 
 .experience_title {
