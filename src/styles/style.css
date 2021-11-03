@@ -51,7 +51,7 @@ nav > a {
   font-size: 1.4vw;
   border-radius: 15px;
   background: rgb(255, 252, 252, 0.3);
-  padding: 0.9vw 0.9vw 1.4vw;
+  padding: 1.5vh 0.9vw 2.5vh;
   text-align: center;
   border: 2px solid rgba(0, 0, 0, 0.027);
 }
@@ -60,7 +60,7 @@ nav > a {
   border-radius: 25px;
   border: 2px solid #d9f5d8;
   background: rgba(149, 248, 157, 0.349);
-  padding: 0.9vw 0.9vw 1.4vw;
+  /* padding: 1.5vh 0.9vw 2.5vh; */
 }
   
 main {
@@ -131,19 +131,20 @@ h1 {
 }
 
 #title {
-  background-color: rgba(255, 255, 255, 0.329);
+  background-color: rgba(255, 255, 255, 0.76);
   position: relative;
   top: 10vh;
   grid-column: 2/3;
   font-size: 2vw;
   font-style: italic;
   margin: auto;
+  padding: 0.25vh 0.5vw;
   align-items: center;
   justify-content: center;
 }
 
 #portfolio {
-  background: rgba(255, 255, 255, 0.329);
+  background: rgba(255, 255, 255, 0.733);
   position: relative;
   top: 10vh;
   grid-column: 2/3;
@@ -171,4 +172,43 @@ h1 {
   text-align: center;
 }
 
+@media (max-width: 777px) {
+
+  nav > a {
+    font-size: 2vw;
+    padding: 1.5vh 0.9vw 4vh;
+  }
+
+  #title {
+    font-size: 4vw;
+  }
+
+  #portfolio {
+    font-size: 4vw;
+    padding: 1.5vh 35vw 5vh 4vw;
+  }
+  
+}
+
+@media (max-height: 500px) {
+
+  body {
+    background-position: center;
+    padding: 0 0 110vh 0;
+  }
+}
+
+@media (max-width: 550px) {
+  
+  nav > a {
+    font-size: 4vw;
+    padding: 1.5vh 5vw 6vh 0;
+  }
+
+  main {
+    grid-template-columns: 1% 98% 1%;
+  }
+    
+
+}
 
