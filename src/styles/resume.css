@@ -82,14 +82,14 @@ nav > a {
 .sidenavs {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 2vw;
   color: white;
   display: block;
 }
 
 .sidenav a {
   text-decoration: underline;
-  font-size: 25px;
+  font-size: 2vw;
   color: white;
   display: block;
 }
@@ -114,12 +114,12 @@ nav > a {
 
 .brief_title {
   text-align: center;
-  font-size: 4vh;
+  font-size: 3vw;
 }
 
 .brief_text {
   text-align: center;
-  font-size: 2.5vh;
+  font-size: 1.8vw;
   margin: -5vh 22vw 1vh;
   padding: 0 0 5vh 1vw;
 }
@@ -135,31 +135,31 @@ nav > a {
 
 .skills_title {
   text-align: center;
-  font-size: 4vh;
+  font-size: 3vw;
 }
 
 .proficient_title {
   text-align: center;
-  font-size: 3vh;
+  font-size: 2vw;
   margin: -5vh 0 1vh;
 }
 
 .proficient_text {
   text-align: center;
-  font-size: 2.5vh;
+  font-size: 1.8vw;
   margin: -2vh 0 1vh;
   padding: 0 0 5vh 1vw;
 }
 
 .familiar_title {
   text-align: center;
-  font-size: 3vh;
+  font-size: 2vw;
   margin: -8vh 0 1vh;
 }
 
 .familiar_text {
   text-align: center;
-  font-size: 2.5vh;
+  font-size: 1.8vw;
   margin: -2vh 0 1vh;
   padding: 0 0 5vh 1vw;
 }
@@ -175,31 +175,31 @@ nav > a {
 
 .education_title {
   text-align: center;
-  font-size: 4vh;
+  font-size: 3vw;
 }
 
 .LCA_title {
   text-align: center;
-  font-size: 3vh;
+  font-size: 2vw;
   margin: -5vh 0 1vh;
 }
 
 .LCA_text {
   text-align: center;
-  font-size: 2.5vh;
+  font-size: 1.8vw;
   margin: -2vh 0 1vh;
   padding: 0 0 5vh 1vw;
 }
 
 .AMU_title {
   text-align: center;
-  font-size: 3vh;
+  font-size: 2vw;
   margin: -8vh 0 1vh;
 }
 
 .AMU_text {
   text-align: center;
-  font-size: 2.5vh;
+  font-size: 1.8vw;
   margin: -2vh 0 1vh;
   padding: 0 0 5vh 1vw;
 }
@@ -215,57 +215,57 @@ nav > a {
 
 .experience_title {
   text-align: center;
-  font-size: 4vh;
+  font-size: 3vw;
 }
 
 .app_admin_title {
   text-align: center;
-  font-size: 3vh;
+  font-size: 2vw;
   margin: -5vh 0 1vh;
 }
 
 .app_admin_text {
   text-align: center;
-  font-size: 2.5vh;
+  font-size: 1.8vw;
   margin: -2vh 0 1vh;
   padding: 0 0 5vh 1vw;
 }
 
 .volunteer_title {
   text-align: center;
-  font-size: 3vh;
+  font-size: 2vw;
   margin: -8vh 0 1vh;
 }
 
 .volunteer_text {
   text-align: center;
-  font-size: 2.5vh;
+  font-size: 1.8vw;
   margin: -2vh 0 1vh;
   padding: 0 0 5vh 1vw;
 }
 
 .accessioner_title {
   text-align: center;
-  font-size: 3vh;
+  font-size: 2vw;
   margin: -8vh 0 1vh;
 }
 
 .accessioner_text {
   text-align: center;
-  font-size: 2.5vh;
+  font-size: 1.8vw;
   margin: -2vh 0 1vh;
   padding: 0 0 5vh 1vw;
 }
 
 .ops_title {
   text-align: center;
-  font-size: 3vh;
+  font-size: 2vw;
   margin: -8vh 0 1vh;
 }
 
 .ops_text {
   text-align: center;
-  font-size: 2.5vh;
+  font-size: 1.8vw;
   margin: -2vh 0 1vh;
   padding: 0 0 5vh 1vw;
 }
@@ -278,27 +278,31 @@ nav > a {
   }
   
   .sidenav {
-    width: 30vw;
+    padding: 0;
+    width: 20vw;
     top: 15vh;
   }
   
   .sidenavs {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    color: white;
-    display: block;
+    padding: 0;
+    font-size: 3vw;
+  }
+
+  .sidenav a {
+    padding: 0;
+    font-size: 3vw;
   }
   
-
 }
 
-@media (max-height: 500px) {
+@media (max-height: 777px) {
 
-  body {
-    background-position: center;
-    padding: 0 0 110vh 0;
+  .sidenav {
+    padding: 0;
+    width: 20vw;
+    top: 15vh;
   }
+
 }
 
 @media (max-width: 550px) {
