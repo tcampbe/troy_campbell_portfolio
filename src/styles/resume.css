@@ -292,6 +292,21 @@ nav > a {
     padding: 0;
     font-size: 3vw;
   }
+
+  .brief, .skills, .education, .experience {
+    margin: -3.5vh -1vw 0;
+    padding: 1vh 1vw 1vh;
+    border-width: 0 3vw 6vh;
+  }
+  
+  .brief_text, .proficient_text, 
+  .familiar_text, .LCA_text, .AMU_text, 
+  .app_admin_text, .volunteer_text, 
+  .accessioner_text, .ops_text {
+    margin: -3vh 22vw 1vh;
+    padding: 0 0 5vh 1vw;
+    font-size: 2.8vw;
+  }
   
 }
 
@@ -312,10 +327,37 @@ nav > a {
     padding: 1.5vh 5vw 6vh 0;
   }
 
+  .page_links {
+    display: none;
+  }
+
   main {
     grid-template-columns: 1% 98% 1%;
   }
-    
+
+  .brief, .skills, .education, .experience {
+    margin: -3.5vh -1vw 0;
+    padding: 1vh 1vw 1vh;
+    border-width: 0 3vw 6vh;
+  }
+
+  .proficient_title, .familiar_title, 
+  .LCA_title, .AMU_title, .app_admin_title, 
+  .volunteer_title, .accessioner_title, 
+  .ops_title {
+    margin: -1vh 0 1vh;
+    font-size: 3.9vw;
+  }
+  
+  .brief_text, .proficient_text, 
+  .familiar_text, .LCA_text, .AMU_text, 
+  .app_admin_text, .volunteer_text, 
+  .accessioner_text, .ops_text {
+    margin: -1vh 2vw 1vh;
+    padding: 0 0 5vh 1vw;
+    font-size: 3.8vw;
+  }
+
 
 }
 
