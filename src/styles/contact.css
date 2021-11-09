@@ -115,6 +115,50 @@ textarea {
   width: 100%;
 }
 
+@media (max-width: 777px) {
+
+  nav > a {
+    font-size: 2vw;
+    padding: 1.5vh 0.9vw 4vh;
+  }
+
+  .flex-container {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+    
+  #media, #abilities, #contact-form {
+    flex: 100%;
+    font-size: 4vw;
+  }
+
+  #media a {
+    font-size: 3vw;
+  }
+
+
+}
+
+@media (max-width: 550px) {
+  
+  nav > a {
+    font-size: 4vw;
+    padding: 1.5vh 5vw 6vh 0;
+  }
+
+  main {
+    grid-template-columns: 1% 98% 1%;
+  }
+
+  #media, #abilities, #contact-form {
+    font-size: 5vw;
+  }
+
+  #media a, #abilities li {
+    font-size: 4vw;
+  }
+
+}
 
 
   
