@@ -97,7 +97,15 @@ h4 {
   list-style-type: none;
 }
 
-#contact-form {
+#contact {
+  background-color: rgba(0, 128, 0, 0.753);
+  font-size: 3vw;
+  padding: 2vh;
+  margin: 10vh 43.5vw;
+  border-radius: 25%;
+}
+
+/* #contact-form {
   background-color: rgba(245, 245, 245, 0.609);
   width: 60vw;
   padding: 0 1vw;
@@ -120,7 +128,7 @@ select,
 textarea {
   resize: vertical;
   width: 100%;
-}
+} */
 
 @media (max-width: 777px) {
 
