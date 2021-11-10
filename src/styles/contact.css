@@ -83,6 +83,13 @@ h4 {
   padding: 0 1vw;
 }
 
+#media a {
+  font-size: 1.6vw;
+  display: block;
+  padding: 0 0 1.5vh 0;
+}
+
+
 #abilities {
   background-color: rgba(245, 245, 245, 0.609);
   margin: -0.1vh 0;
@@ -134,8 +141,12 @@ textarea {
 
   #media a {
     font-size: 3vw;
+    display: block;
   }
 
+  br {
+    display: none;
+  }
 
 }
 
