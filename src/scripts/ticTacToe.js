@@ -1,5 +1,8 @@
 // help with JS
 // https://www.codebrainer.com/blog/what-is-javascript
+// 
+
+
 
 
 
@@ -23,7 +26,7 @@ const restartButton = document.getElementById('restartButton')
 const winningMessageTextElement = document.getElementById('winningMessageText')
 let isPlayer_O_Turn = false
 
-startGame()
+startGame() 
 
 restartButton.addEventListener('click', startGame)
 
@@ -41,7 +44,8 @@ function startGame() {
 
 function handleCellClick(e) {
 	const cell = e.target
-	const currentClass = isPlayer_O_Turn ? PLAYER_O_CLASS : PLAYER_X_CLASS
+	const currentClass = isPlayer_O_Turn ? 
+				PLAYER_O_CLASS : PLAYER_X_CLASS
 	placeMark(cell, currentClass)
 	if (checkWin(currentClass)) {
 		endGame(false)
@@ -66,7 +70,8 @@ function endGame(draw) {
 
 function isDraw() {
 	return [...cellElements].every(cell => {
-		return cell.classList.contains(PLAYER_X_CLASS) || cell.classList.contains(PLAYER_O_CLASS)
+		return cell.classList.contains(PLAYER_X_CLASS) || 
+				cell.classList.contains(PLAYER_O_CLASS)
 	})
 }
 
@@ -96,3 +101,4 @@ function checkWin(currentClass) {
 	})
 }
 
+ 
