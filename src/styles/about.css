@@ -74,7 +74,7 @@ body {
 
 .experienced {
     background-color: ghostwhite;
-    padding: 0 5vw 0 16vw;
+    padding: 0 10vw 0 16vw;
     margin: 3% 5vw 0;
     font-size: 2.6vw;
     text-align: center;
@@ -82,5 +82,42 @@ body {
 }
 
 .who {
-    margin-top: 10%;
+    background-color: ghostwhite;
+    box-sizing: border-box;
+    margin: 10% -10.5%;
 }
+
+.whoTitle {
+    padding: 0 20%;
+    text-align: center;
+    margin: 0 0 -1vh;
+    text-decoration: underline double rgba(0, 0, 0, 0.513) 0.25vh;
+}
+
+.external {
+    background-color: rgba(215, 195, 236, 0.575);
+    float: left;
+    width: 37.5%;
+    padding: 0 1% 0 10%;
+}
+
+.internal {
+    background-color: rgba(200, 243, 204, 0.493);
+    float: right;
+    width: 37.5%;
+    padding: 0 10% 0 1%;
+}
+
+.who:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+
+
+
+
+
