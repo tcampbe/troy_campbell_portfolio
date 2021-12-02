@@ -1,5 +1,7 @@
 
 
+
+
 body {
     margin-top: 10vh;
 }
@@ -53,23 +55,29 @@ body {
   
 
 .story {
-    background-color: rgba(169, 195, 202, 0.842);
     background-image: url('../images/img_bigProfilePic.jpg');
     background-repeat: no-repeat;
+    background-position: top right;
+    background-size: auto 80%;
+    background-color: rgba(169, 195, 202, 0.842);
     background-position: center right;
     background-size: contain;
-    padding: 25%;
-    margin: 6% -1vw 0;
-    font-size: 5vw;
+    padding: 20% 0 ;
+    margin: 0 -1vw 0;
+}
+
+.storyTitle {
+  padding: 25% 0;
+  margin: -35% 0 0 15vw;
+  font-size: 5vw;
 }
 
 .renaissance {
     background-color: ghostwhite;
-    padding: 0 14vw 0 4vw;
-    margin: -20% 5vw 0 ;
+    width: 43%;
+    margin: -25% 15vw 0;
     font-size: 3.5vw;
     text-align: center;
-
 }
 
 .experienced {
