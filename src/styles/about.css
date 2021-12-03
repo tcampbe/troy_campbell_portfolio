@@ -2,127 +2,160 @@
 
 
 
+
+
 body {
-    margin-top: 10vh;
+    margin-top: -1vh;
 }
 
-.logo {
-    width: 5.5vw;
-    height: 6.5vh;
-    margin: 1.5vh 0.5vw;
-  }
-  
-  header {
-    background-color: rgb(252, 245, 221);
-    display: grid;
-    position: fixed;
-    grid-template-columns: 30% 70%;
-    width: 93.5%;
-    margin: -10vh -1vw;
-    padding: 0 4vw;
-  }
-  
-  nav {
-    background-color: rgb(247, 241, 214);
-    display: flex;
-    justify-content: flex-end;
-    margin: -0.5vh 0 2vh -4vw;
-    border-radius: 0.5vw;
-    width: 100%;
-    padding-right: 1vh 0 -1vh ;
-  }
-  
-  nav > a {
-    margin: 3vh 3vw 0.2vh;
-    height: 1.5vh;
-    width: 10vw;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.4vw;
-    border-radius: 15px;
-    background: rgb(255, 252, 252, 0.3);
-    padding: 0.9vw 0.9vw 1.4vw;
-    text-align: center;
-    border: 2px solid rgba(0, 0, 0, 0.027);
-  }
-  
-  .has-border {
-    border-radius: 25px;
-    border: 2px solid #d9f5d8;
-    background: rgba(149, 248, 157, 0.349);
-    padding: 0.9vw 0.9vw 1.4vw;
-  }
-  
-
 .story {
+    background-color: rgb(117,141,167);
     background-image: url('../images/img_bigProfilePic.jpg');
     background-repeat: no-repeat;
-    background-position: top right;
-    background-size: auto 80%;
-    background-color: rgba(169, 195, 202, 0.842);
-    background-position: center right;
-    background-size: contain;
-    padding: 20% 0 ;
-    margin: 0 -1vw 0;
+    background-position: bottom right;
+    background-size: 38% 98%;
+    padding: 15% 0 15%;
+    margin: -2% -1vw -1vh;
+    border-bottom: 1.5vh solid rgb(117,141,167);
+}
+
+.border {
+  margin: 0 -1vw 0;
+  border-style: solid;
+  border-width: 0 0 6vh;
+  border-image-source: url(../images/img_bluePaint.jpg);
+  border-image-slice: 400;
 }
 
 .storyTitle {
-  padding: 25% 0;
-  margin: -35% 0 0 15vw;
-  font-size: 5vw;
+  background-color: black;
+  padding-left: 4%;
+  margin-right: 37%;
+  margin-left: 6%;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 5.5vw;
+  color: rgb(117,141,167);
+  border: 0.4vh double whitesmoke;
 }
 
 .renaissance {
-    background-color: ghostwhite;
-    width: 43%;
-    margin: -25% 15vw 0;
-    font-size: 3.5vw;
-    text-align: center;
+  background-color: rgb(117,141,167);
+  padding-left: 4%;
+  margin-right: 37%;
+  margin-left: 6%;
+  margin-top: -4.5%;
+  font-size: 3vw;
+  border: 0.4vh double whitesmoke;
+  border-top: hidden;
 }
 
 .experienced {
-    background-color: ghostwhite;
-    padding: 0 10vw 0 16vw;
-    margin: 3% 5vw 0;
-    font-size: 2.6vw;
-    text-align: center;
+  margin-top: -1%;
+  padding-left: 10%;
+  font-size: 1.8vw;
+  color: rgba(248, 245, 245, 0.767);
+}
 
+.logo {
+  width: 5.5vw;
+  height: 6.5vh;
+  margin: 1.5vh 0.5vw;
+}
+
+header {
+  background-color: rgb(252, 245, 221);
+  display: grid;
+  position: sticky;
+  top: -1px;
+  grid-template-columns: 30% 70%;
+  width: 93.5%;
+  margin: 0 -1vw;
+  padding: 0 4vw;
+  z-index: 1;
+}
+
+nav {
+  background-color: rgb(247, 241, 214);
+  display: flex;
+  justify-content: flex-end;
+  margin: -0.5vh 0 2vh -4vw;
+  border-radius: 0.5vw;
+  width: 100%;
+  padding-right: 1vh 0 -1vh ;
+}
+
+nav > a {
+  margin: 3vh 3vw 0.2vh;
+  height: 1.5vh;
+  width: 10vw;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.4vw;
+  border-radius: 15px;
+  background: rgb(255, 252, 252, 0.3);
+  padding: 0.9vw 0.9vw 1.4vw;
+  text-align: center;
+  border: 2px solid rgba(0, 0, 0, 0.027);
+}
+
+.has-border {
+  border-radius: 25px;
+  border: 2px solid #d9f5d8;
+  background: rgba(149, 248, 157, 0.349);
+  padding: 0.9vw 0.9vw 1.4vw;
+}
+
+.space {
+  margin: 0 -1vw;
+  padding: 2%;
+  background-color: black;
 }
 
 .who {
-    background-color: ghostwhite;
-    box-sizing: border-box;
-    margin: 10% -10.5%;
+  position: relative; 
+  height: 80vh;
+  width: 110%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 -1vw;
 }
 
-.whoTitle {
-    padding: 0 20%;
-    text-align: center;
-    margin: 0 0 -1vh;
-    text-decoration: underline double rgba(0, 0, 0, 0.513) 0.25vh;
+.who::before {
+  content: "";
+  background: url(../images/img_bluePaint.jpg);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.75;
 }
 
-.external {
-    background-color: rgba(215, 195, 236, 0.575);
-    float: left;
-    width: 37.5%;
-    padding: 0 1% 0 10%;
+.begin {
+  position: relative;
+  color: #ffffff;  
+  font-size: 3vh;
+  line-height: 110%;
+  text-align: left;
+  margin: 0 2vw;
+  padding: 0 30vw 0 1vw;
 }
 
-.internal {
-    background-color: rgba(200, 243, 204, 0.493);
-    float: right;
-    width: 37.5%;
-    padding: 0 10% 0 1%;
+.family {
+  background: url(../images/img_familyPlus.JPG);
+  background-size: auto 100% ;
+  background-repeat: no-repeat;
+  background-position: center right;
 }
 
-.who:after {
-    content: "";
-    display: table;
-    clear: both;
+.stuff {
+  background-color: rgb(95, 94, 94);
+  box-sizing: border-box;
+  padding: 20% 1%;
+  margin: 0 -1vw;
 }
-
-
 
 
 
