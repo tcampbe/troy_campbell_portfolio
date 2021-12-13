@@ -144,6 +144,15 @@ h1 {
 }
 
 #portfolio {
+  background-color: rgba(247, 208, 140, 0.897);
+  font-size: 3vw;
+  letter-spacing: 1.9vw;
+  padding: 2vh;
+  margin: 11vh 33vw;
+  border-radius: 40%;
+}
+
+/* #portfolio {
   background: rgba(255, 255, 255, 0.733);
   position: relative;
   top: 10vh;
@@ -160,7 +169,7 @@ h1 {
   padding: 1vw 2vw 3vw;
   align-items: center;
   justify-content: center;
-}
+} */
 
 #footer{
   display: initial;

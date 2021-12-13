@@ -149,22 +149,29 @@ function drawEverything() {
     // create left paddle
     colorRect(0,paddle1Y,PADDLE_THICKNESS,PADDLE_HEIGHT,'white');
     // create right paddle
-    colorRect(canvas.width-PADDLE_THICKNESS,paddle2Y,PADDLE_THICKNESS,PADDLE_HEIGHT,'white');
+    colorRect(canvas.width-PADDLE_THICKNESS,paddle2Y,
+                PADDLE_THICKNESS,PADDLE_HEIGHT,'white');
     // show scores
-    canvasContext.fillText(player1Score,canvas.width/4,canvas.height/8);
-    canvasContext.fillText(player2Score,canvas.width*3/4,canvas.height/8);
+    canvasContext.fillText(player1Score,canvas.width/4,
+                                        canvas.height/8);
+    canvasContext.fillText(player2Score,canvas.width*3/4,
+                                        canvas.height/8);
     // check for win true = return, false = continue
     // works here because fillText is white after paddles are drawn
     if(showingWinScreen) {
         if( player1Score >= WINNING_SCORE) {
-            canvasContext.fillText("The Human Wins!",canvas.width*5/16,canvas.height*4/10)
+            canvasContext.fillText("The Human Wins!",
+            canvas.width*5/16,canvas.height*4/10)
         }
         else if (player2Score >= WINNING_SCORE) {
-            canvasContext.fillText("Computer WINS!!!!!",canvas.width*5/16,canvas.height/3)
-            canvasContext.fillText("(Puny Human!)",canvas.width*5/16,canvas.height*4/10)
+            canvasContext.fillText("Computer WINS!!!!!",
+                        canvas.width*5/16,canvas.height/3);
+            canvasContext.fillText("(Puny Human!)",
+                        canvas.width*5/16,canvas.height*4/10);
         }
 
-        canvasContext.fillText("Click to Restart Game",canvas.width*5/16,canvas.height*7/8);
+        canvasContext.fillText("Click to Restart Game",
+                            canvas.width*5/16,canvas.height*7/8);
         return;
     }
     // draw net
@@ -186,4 +193,8 @@ function colorRect(leftX,topY,width,height,drawColor) {
     canvasContext.fillStyle = drawColor;
     canvasContext.fillRect(leftX,topY,width,height);
 }
+
+
+
+
 
