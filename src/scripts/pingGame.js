@@ -1,6 +1,7 @@
 
-
-
+// try to make this work on safari 
+// ((mouse click and mousemove equivalents))
+// https://sitr.us/2011/07/28/how-mobile-safari-emulates-mouse-events.html
 
 
 
@@ -53,8 +54,10 @@ window.onload = function()  {
         drawEverything();
     }, 1000/framesPerSecond);
 
+    // click (for restart)
     canvas.addEventListener('mousedown',handleMouseClick);
 
+// move user paddle
     canvas.addEventListener('mousemove',
         function(evt) {
             var mousePos = calculateMousePos(evt);

@@ -7,8 +7,20 @@ main {
     text-align: center;
 }
 
- 
+p {
+    margin: 0;
+}
+
 #gameCanvas {
-    width: 90vw;
-    height: 80vh;
+    width: 95vw;
+    height: 90vh;
+    margin: -1vh 0 0 0;
+}
+
+footer {
+    background: peachpuff;
+    text-align: center;
+    font-size: 3vh;
+    letter-spacing: 1vw;
+    margin: 0 30vw;
 }
