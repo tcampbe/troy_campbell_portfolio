@@ -209,12 +209,8 @@ h1 {
   #portfolio {
     padding: 1vh 1vw 1vh 3vw;
     margin: -1vh 32vw;
-    -webkit-border-radius: 35%;
-    -moz-border-radius: 35%;
     border-radius: 35%;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;  }
+  }
   
 }
 
