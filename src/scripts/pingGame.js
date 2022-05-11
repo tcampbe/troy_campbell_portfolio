@@ -148,7 +148,7 @@ function drawNet() {
 
 function drawEverything() {
     // create black court
-    colorRect(0,0,canvas.width,canvas.height,'black');
+    colorRect(0,0,canvas.width,canvas.height,'darkolivegreen');
     // create left paddle
     colorRect(0,paddle1Y,PADDLE_THICKNESS,PADDLE_HEIGHT,'white');
     // create right paddle
@@ -180,7 +180,7 @@ function drawEverything() {
     // draw net
     drawNet();
     // create ball
-    colorCircle(ballX,ballY,10,'white');
+    colorCircle(ballX,ballY,10,'black');
 }
 
 // draw round ball
