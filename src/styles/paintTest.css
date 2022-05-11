@@ -1,0 +1,26 @@
+
+
+
+text {
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    fill: black;
+    stroke: red;
+    stroke-width: 4px;
+  }
+  
+  .stroke-behind {
+    paint-order: stroke fill;
+  }
+
+  .tscLogo {
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    fill: black;
+    stroke: rgb(2, 138, 12);
+    stroke-width: 4px;
+    paint-order: stroke fill;
+  }
+  
