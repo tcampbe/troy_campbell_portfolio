@@ -3,20 +3,23 @@
 
 /* https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp */
 
+/* try block on body elements */
 
 
-
-body {margin:0;font-family:Arial}
+body {
+  margin:0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: rgb(6, 82, 86);
 }
 
 .topnav a {
-  float: left;
+  float: right;
   display: block;
-  color: #f2f2f2;
+  color: rgb(237, 231, 231);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -24,7 +27,8 @@ body {margin:0;font-family:Arial}
 }
 
 .active {
-  background-color: #04AA6D;
+  float: left;
+  background-color: rgb(23, 37, 38);
   color: white;
 }
 
@@ -92,16 +96,50 @@ body {margin:0;font-family:Arial}
 
 
 h1 {
-    background-color: rgb(1,73,77);
+    background-color: rgb(6, 82, 86);
     color: white;
+    margin: 0%;
+    padding: 8vh 0vw 3.5vh 0vw;
+    border-top: 0.1vh solid black;
 }
 
+.rotate {
+  font-size: 2.5vh;
+  font-weight: 100;
+  position: fixed;
+  top: 16vh;
+  left: 0em;
+  transform: rotate(-90deg);
+  letter-spacing: -2;
+  padding: 1vh 0vw 1vh 0vw;
+}
+
+.grow {
+  font-size: 6vh;
+  font-weight: 100;
+  padding: 1vh 0vw 1vh 2.3vw;
+  letter-spacing: 0vw;
+}
+
+.normal {
+  font-weight: 100;
+  margin: -10.1vh 0vw 0vh 0vw;
+  padding: 0vh 0vw 0vh 26.4vw;
+
+}
 
 .welcome {
-    height: 20em;
+    height: 48vh;
+    color: rgb(4, 175, 205);
+    background-color: rgb(17, 54, 57);
     background-image: url(../images/img_fellowLogo.JPG);
     background-repeat: no-repeat;
-    background-position: bottom left;
-    font-size: 6vh;
+    background-position: left;
+    font-size: 3vh;
+    font-weight: 100;
+    margin: 0vh;
+    padding: 2vh 0vw 0vh 0vw;
 }
+
+
 
